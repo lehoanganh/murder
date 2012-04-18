@@ -5,13 +5,13 @@
 
 Gem::Specification.new do |s|
   s.name = %q{murder}
-  s.version = "0.1.3"
+  s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Larry Gadea", "Matt Freels", "Hoang Anh Le"]
-  s.date = %q{2012-04-18}
+  s.authors = ["Larry Gadea", "Matt Freels"]
+  s.date = %q{2010-10-11}
   s.description = %q{Large scale server deploys using BitTorrent and the BitTornado library}
-  s.email = %q{me@lehoanganh.de}
+  s.email = %q{lg@twitter.com}
   s.extra_rdoc_files = [
     "LICENSE",
      "README.md"
@@ -19,7 +19,6 @@ Gem::Specification.new do |s|
   s.files = [
     ".gitignore",
      "LICENSE",
-     "README",
      "README.md",
      "Rakefile",
      "VERSION",
@@ -83,7 +82,7 @@ Gem::Specification.new do |s|
      "lib/murder/murder.rb",
      "murder.gemspec"
   ]
-  s.homepage = %q{https://lehoanganh/murder}
+  s.homepage = %q{http://github.com/lg/murder}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
