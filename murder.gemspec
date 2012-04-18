@@ -14,8 +14,7 @@ Gem::Specification.new do |s|
   s.email = %q{me@lehoanganh.de}
   s.extra_rdoc_files = [
     "LICENSE",
-     "README.md",
-	"README"
+     "README.md"
   ]
   s.files = [
     ".gitignore",
